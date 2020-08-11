@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node ./bin/www",
     "dev": "nodemon ./bin/www",
+    "commit-deploy": "git push origin master && gulp deploy",
     "deploy": "gulp deploy"
   },
   "dependencies": {
