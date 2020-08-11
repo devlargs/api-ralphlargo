@@ -1,9 +1,9 @@
 {
   "name": "api-ralphlargo",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www",
+    "start": "nodemon ./bin/www",
     "deploy": "gulp deploy"
   },
   "dependencies": {
@@ -14,6 +14,7 @@
     "gulp-elasticbeanstalk-deploy": "^1.1.0",
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
+    "mongoose": "^5.9.28",
     "morgan": "~1.9.1"
   },
   "devDependencies": {

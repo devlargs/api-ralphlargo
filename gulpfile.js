@@ -18,6 +18,7 @@ gulp.task("deploy", function () {
         "bin/**/*",
         "public/**/*",
         "routes/**/*",
+        "models/**/*",
         "views/**/*",
         "app.js",
         "gulpfile.js",
